@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '选择图片' do
+  pod 'LBXKit', '~> 0.1.2'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 选择图片
+
+  target '选择图片Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '选择图片UITests' do
+    # Pods for testing
+  end
+
+end

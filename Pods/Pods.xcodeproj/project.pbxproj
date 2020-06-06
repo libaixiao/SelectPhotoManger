@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C59143A4D01D8686D2622DECC32973 /* LBXKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66A9201C4CF67288DDEE0903304F48 /* LBXKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047B3AB4B717EA25883E8D2AA4A0A9E8 /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A647C1C5E4C3543795A1E328DCCC0 /* NSDate+Date.m */; };
+		0885516AC660E21FD41521C40D32CAC5 /* Pods-选择图片-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B62B4F10EF6261F19AD3736B37C006 /* Pods-选择图片-dummy.m */; };
+		0B3F2EC10F2E1A7D224D05B6131C7470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1679131A02208613FA2855FE38FC149C /* LBXKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F22992708852F0F644F4D92E4140 /* LBXKit-dummy.m */; };
+		16C70C1FC58745FC05D1D40DBAFCDBEE /* UIAlertController+Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = C4205B52BCC7F2189DA0CE26BCCCBF53 /* UIAlertController+Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189806491D952F1CC68168DCA7999D52 /* UIDevice+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B712C512449C40F23B7AA6558AE0D /* UIDevice+Device.m */; };
+		1B4307078C0FEACE6076668CCDE2B9B9 /* UIImageView+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 418CB863ABFD19D107F1031A5CE42B6B /* UIImageView+ImageView.m */; };
+		1D9EDEE349961D9EA0D391E2EBE08731 /* Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 782C2C3FE48F08E014D5EE0629ED20FB /* Macro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A02905575DC2E21477A5E29D191CD4 /* Methods.h in Headers */ = {isa = PBXBuildFile; fileRef = C15535AF791836F6234BE7E82EDAF5C0 /* Methods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CFD4AD9E1148417576497D8309B519 /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF14D12901F845CA76123DE642129E /* UIDevice+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA1D9C114746A52E22B9AEAAE29F08B /* NSObject+Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB9EAAD0D4717979EBF02FC65BD49F /* NSObject+Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3194375CADC0DF8380792919B5B3AC /* NSNumber+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA99CF088F59D7A3A0D842721436131 /* NSNumber+Number.m */; };
+		2E4CC0293F10C507942007F2B4888D58 /* UIView+View.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3A8831DB5C22F177988A4E1664EFD /* UIView+View.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CD2764355E5D1409511D42C67873E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3B58C9D61CEB79DFE30A164399E42BA5 /* UIBarButtonItem+BarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6E04C1EF6CA657C23BD6331E00ECF /* UIBarButtonItem+BarButtonItem.m */; };
+		41A9901754DBEC50B741B9E83C733853 /* UIButton+Button.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C9DCA18CFBD8A620FF5EA189F8F13D /* UIButton+Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D984B7615290EFB7654A8DAAD14F7E3 /* UITableView+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCFA6B94E41ABF330215F9D6D288E5 /* UITableView+TableView.m */; };
+		4FABBA61D85C56A06991DCA8964F0D4D /* Pods-选择图片Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF34B09F6F6D6BE851019261606259AC /* Pods-选择图片Tests-dummy.m */; };
+		5195DEDEBAD38D6BA4A129874BD72ED3 /* UIBarButtonItem+BarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 303DFFB99ABAA1134DD039C46C96C2E0 /* UIBarButtonItem+BarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5210E1C8DEC0EED5443CDF941AEC7219 /* UIImageView+ImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 011567A9230CEA712EB64317EF251235 /* UIImageView+ImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B439CB51809A466FB2D06B9D73140C /* UIViewController+VC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4763CDFB6EB133923F12EE7381029A5C /* UIViewController+VC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595B9B689469E03C713FE9669C42D7B5 /* UIAlertController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = CB742C5537D8CEAE390BF9B6D37D7D5C /* UIAlertController+Alert.m */; };
+		60A28E10891D9BAFE77ACAEE7C2FBAC9 /* Pods-选择图片-选择图片UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9ADE67F9F2A8ECFFEF0ED171FBE816 /* Pods-选择图片-选择图片UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D6A254CF2DF1B5F7E52B9213659312 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A24AD71983AACEC7D6BB34CEE8133F80 /* NSObject+Runtime.m */; };
+		6241B08545336170FE242B9BDC9DD043 /* Pods-选择图片-选择图片UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DD3E0E6B97C9561975AED0B1149F32 /* Pods-选择图片-选择图片UITests-dummy.m */; };
+		650DD83460ED66DE88B134DB5C3D8465 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 859E7368F31B542D15D04AA03E86A9B7 /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65392E95D92DBF718753E85B35F5D8ED /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D98EF9CBA2103072CDE5D45735AB266 /* UIImage+Image.m */; };
+		68DEE5CB146DAA0FE37726B4ED4D0266 /* SerializeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91D2D53822E03AAE82699C08F95BE4 /* SerializeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74490B574B057AE5903CBEBBE0CC4B08 /* UINavigationController+NavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5FFC7C3A57BF47D985C7E3246FCA34 /* UINavigationController+NavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5B932247379FD98279B6E32473C5AC /* Foundation+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F2D3D0EBB6518D83CBD3BC78BEA459 /* Foundation+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE58558FE5C45D06F260352C453CC6B /* NSDictionary+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FADD1D5F3860835FA8B444BED49C39E8 /* NSDictionary+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F3F4096346BD898125C62FF1E14F71 /* NSFileManager+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B970857B78278F9773FAB71B70701AB /* NSFileManager+FileManager.m */; };
+		83544B3DA172D79A5780C8A71D77CC29 /* Pods-选择图片-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BCAC6F1CD682EF1DBC0AA4E231E13D /* Pods-选择图片-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8797625A80CCEBCEC0CB5891D160447B /* UIScrollView+ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3ADA391DBCC2980365B43F16992CB9 /* UIScrollView+ScrollView.m */; };
+		89CC240487BF0ECA5C1DDE3253C92A88 /* NSDate+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1D3741B6A662E020AA5406258272CE /* NSDate+Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DED95E45C9E086BE1B8F5085E8CDC5F /* UILabel+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F123A1FCD0B2FE880D3A44BD6B1BE /* UILabel+Label.m */; };
+		91B0960A0E5DEA9A6FF822E65F55D8B2 /* UIScrollView+ScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE9EE466BF3FBFB46D5E590C8D406D5 /* UIScrollView+ScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9318EA9C4685B5E85EF97DD59EB2E94F /* NSObject+Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 833E5474DA4DC53CAEB423250A37B024 /* NSObject+Runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933ABF88C935DDD11DE85DAD97060F0A /* CALayer+Layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87673F8FE1C721CB0ED7ADDF39C57F6D /* CALayer+Layer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9436F52AD34B3731499842E8ED446679 /* CALayer+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB69E0494B313B26614C5BBC627582A /* CALayer+Layer.m */; };
+		9E20D7B5D1A8EAD980826439FD08C6D8 /* NSObject+Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B122D6D8178B1A8FB8BF1DE5997EDF6 /* NSObject+Object.m */; };
+		9EDEC6F1CBB6E06B1C61D0F0C47D0BB6 /* NSTimer+Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD058D7CDBACD879042D0CEA3BA4FC /* NSTimer+Timer.m */; };
+		A7324249FFCB8244E55285AA7F867808 /* Pods-选择图片Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC297CAF14FA72B622E5645667F1CE8 /* Pods-选择图片Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABCFD22AB6BDCD4F1A64CF316A1F1049 /* UIView+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D99510E047157F798720EFB3C9E50 /* UIView+View.m */; };
+		AC6593207B621F4E0118DA9C7347850E /* Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5C05287A3CC7C4E75CCF14DAB462A /* Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19BA4B07B66D95985767360BA3C1E02 /* Foundation+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4D2424ABAFE3297DC423EB62AA29C7 /* Foundation+Safe.m */; };
+		BA1A46398324F0A86DFB8AAD5CD87B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE748C2CA34C03410D44C951C044C9B0 /* UITableView+TableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C6E5F23B51D092888F2D2BF2A308D4 /* UITableView+TableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04A40E8F327E6530C8D34215AC16AEE /* NSFileManager+FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2560B06FCA32FC7B5A10CC9277ECA3E /* NSFileManager+FileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1449D12DC14CA56CDC30551384515F2 /* NSTimer+Timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7863E023629AA150989C298C8777BC8F /* NSTimer+Timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40DBA087E82530F8512AB491F1D6545 /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F115C907EDC257B8C18868329A13A8 /* UIImage+Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C4938439FF8F454C71C9CE1EFB26A9 /* NSArray+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA8E273B620EEEDBD1A503757329F /* NSArray+Array.m */; };
+		D044625EB124354FDB3D2F9418A7DFCC /* NSDictionary+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5502E49043F2E6DF3A5B640400DF03 /* NSDictionary+Dictionary.m */; };
+		D0B0D4258D47C08B730CAF46F4C2D77B /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3CCE0F811BA58CFDE0D67C050134C8 /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B648B6244DD57033B38DF9A276F9CF /* NSArray+Array.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D5266208E712D2DE10E10C738AAC6A /* NSArray+Array.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89153C7E8D9B5CF26A48E8475B0C8F0 /* NSNumber+Number.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9F6A0EE9AAF7D285261274286DD47F /* NSNumber+Number.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D972A59EB2ED8A4BB806EE2E7B008797 /* Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = A67B01A0EDD820400E644FE103B8CCE0 /* Methods.m */; };
+		E03F2260D9E7DB8E1BF44C4C0093DE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E183E2D04BB7F5C9EB28E44206815CC5 /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB127B79E04CBD596A199710678131 /* UIButton+Button.m */; };
+		E5BA2A617A936DD0D0146FCE76C860FC /* UINavigationController+NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6139CCED505891316E654159BB96D6 /* UINavigationController+NavigationController.m */; };
+		E5EDF4C136E3E5C925D7FF600326CAFF /* NSString+String.h in Headers */ = {isa = PBXBuildFile; fileRef = 828DF6435F4F673E523970ACF436DD58 /* NSString+String.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6C0EC82CA8216DF1082834E824DC418 /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 9097F73935231387373C5541F720AA8C /* NSString+String.m */; };
+		EF6A42BB29F32190B3A520E2CD065E89 /* UILabel+Label.h in Headers */ = {isa = PBXBuildFile; fileRef = 39438DCF2AFD8DE1ED607B7F5F84DE9E /* UILabel+Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5BE2F16E5EA7E0AB8ADF253CEAB659 /* UIViewController+VC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6158E2AA5E7F3B250B2008F3C89652 /* UIViewController+VC.m */; };
+		FF069C44432537DE4EDC7545D04AFECC /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = DBADBF8909A6452E58EBB25137A85DA2 /* UIColor+Color.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EB2E1677A1130AE0A696C8C9FBD248B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE297E6EB6A7E9E054206292B354716;
+			remoteInfo = "Pods-选择图片";
+		};
+		3E4D4A29AA7F970A09AD74F95C69467A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F1AF020DC39A3EBEE7FCC3CC9F21E0;
+			remoteInfo = LBXKit;
+		};
+		8C404441E3A584E62ABF189CB20EBC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F1AF020DC39A3EBEE7FCC3CC9F21E0;
+			remoteInfo = LBXKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011567A9230CEA712EB64317EF251235 /* UIImageView+ImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+ImageView.h"; path = "LBXKit/Classes/UIImageView+ImageView.h"; sourceTree = "<group>"; };
+		013F123A1FCD0B2FE880D3A44BD6B1BE /* UILabel+Label.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Label.m"; path = "LBXKit/Classes/UILabel+Label.m"; sourceTree = "<group>"; };
+		026D13E1E873F197A3D4A7B37A1F369B /* LBXKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBXKit.release.xcconfig; sourceTree = "<group>"; };
+		02F2D3D0EBB6518D83CBD3BC78BEA459 /* Foundation+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Foundation+Safe.h"; path = "LBXKit/Classes/Foundation+Safe.h"; sourceTree = "<group>"; };
+		04C2F22992708852F0F644F4D92E4140 /* LBXKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBXKit-dummy.m"; sourceTree = "<group>"; };
+		07B5C05287A3CC7C4E75CCF14DAB462A /* Kit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kit.h; path = LBXKit/Classes/Kit.h; sourceTree = "<group>"; };
+		09C6E5F23B51D092888F2D2BF2A308D4 /* UITableView+TableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+TableView.h"; path = "LBXKit/Classes/UITableView+TableView.h"; sourceTree = "<group>"; };
+		0D98EF9CBA2103072CDE5D45735AB266 /* UIImage+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image.m"; path = "LBXKit/Classes/UIImage+Image.m"; sourceTree = "<group>"; };
+		1F5FFC7C3A57BF47D985C7E3246FCA34 /* UINavigationController+NavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationController.h"; path = "LBXKit/Classes/UINavigationController+NavigationController.h"; sourceTree = "<group>"; };
+		22CB81F09B627F080B6EC059D3C7343F /* Pods-选择图片Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-选择图片Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		250D25B21D187FE0B192D566108C4EB9 /* Pods_____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____Tests.framework; path = "Pods-选择图片Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289732644DBCBA14A7AD54CE74FBB5E2 /* Pods-选择图片Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B81FC6D464D02C129D5AF4AB887D54F /* Pods-选择图片-选择图片UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片-选择图片UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BA99CF088F59D7A3A0D842721436131 /* NSNumber+Number.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Number.m"; path = "LBXKit/Classes/NSNumber+Number.m"; sourceTree = "<group>"; };
+		2E8C94F290B96D406F698565B6674133 /* Pods-选择图片-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-选择图片-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F3ADA391DBCC2980365B43F16992CB9 /* UIScrollView+ScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ScrollView.m"; path = "LBXKit/Classes/UIScrollView+ScrollView.m"; sourceTree = "<group>"; };
+		303DFFB99ABAA1134DD039C46C96C2E0 /* UIBarButtonItem+BarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BarButtonItem.h"; path = "LBXKit/Classes/UIBarButtonItem+BarButtonItem.h"; sourceTree = "<group>"; };
+		30473CD752F47D12159AE545AFBC515B /* Pods-选择图片-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34DD3E0E6B97C9561975AED0B1149F32 /* Pods-选择图片-选择图片UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-选择图片-选择图片UITests-dummy.m"; sourceTree = "<group>"; };
+		35BCAC6F1CD682EF1DBC0AA4E231E13D /* Pods-选择图片-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-选择图片-umbrella.h"; sourceTree = "<group>"; };
+		39438DCF2AFD8DE1ED607B7F5F84DE9E /* UILabel+Label.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Label.h"; path = "LBXKit/Classes/UILabel+Label.h"; sourceTree = "<group>"; };
+		3D5502E49043F2E6DF3A5B640400DF03 /* NSDictionary+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Dictionary.m"; path = "LBXKit/Classes/NSDictionary+Dictionary.m"; sourceTree = "<group>"; };
+		3E5D1740B2D7F7BD382EE71ABE991033 /* Pods-选择图片.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1D3741B6A662E020AA5406258272CE /* NSDate+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Date.h"; path = "LBXKit/Classes/NSDate+Date.h"; sourceTree = "<group>"; };
+		3F3CCE0F811BA58CFDE0D67C050134C8 /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Color.h"; path = "LBXKit/Classes/UIColor+Color.h"; sourceTree = "<group>"; };
+		418CB863ABFD19D107F1031A5CE42B6B /* UIImageView+ImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+ImageView.m"; path = "LBXKit/Classes/UIImageView+ImageView.m"; sourceTree = "<group>"; };
+		4763CDFB6EB133923F12EE7381029A5C /* UIViewController+VC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VC.h"; path = "LBXKit/Classes/UIViewController+VC.h"; sourceTree = "<group>"; };
+		4BE9EE466BF3FBFB46D5E590C8D406D5 /* UIScrollView+ScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ScrollView.h"; path = "LBXKit/Classes/UIScrollView+ScrollView.h"; sourceTree = "<group>"; };
+		57CB9EAAD0D4717979EBF02FC65BD49F /* NSObject+Object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Object.h"; path = "LBXKit/Classes/NSObject+Object.h"; sourceTree = "<group>"; };
+		5E11BF7533A8B8C6AF986E378DC7C3D3 /* Pods-选择图片-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片-Info.plist"; sourceTree = "<group>"; };
+		5E4A3C9C5F16D9A45039CDF206A9F160 /* Pods-选择图片.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-选择图片.modulemap"; sourceTree = "<group>"; };
+		67B62B4F10EF6261F19AD3736B37C006 /* Pods-选择图片-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-选择图片-dummy.m"; sourceTree = "<group>"; };
+		6C3B8E1D1E53B6240E4A5D93FBA4B5AA /* Pods-选择图片-选择图片UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-选择图片-选择图片UITests-frameworks.sh"; sourceTree = "<group>"; };
+		70415D75093C086B7C00827608975D1C /* Pods-选择图片.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片.release.xcconfig"; sourceTree = "<group>"; };
+		713D5FABAA92E321D999F9CB159A3C4B /* Pods-选择图片Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-选择图片Tests.modulemap"; sourceTree = "<group>"; };
+		758C7E2579B550A94130798DA56C468A /* Pods-选择图片-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-选择图片-frameworks.sh"; sourceTree = "<group>"; };
+		76D185B9B06B90595A92E0CB6BC7A9DD /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____.framework; path = "Pods-选择图片.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782C2C3FE48F08E014D5EE0629ED20FB /* Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = LBXKit/Classes/Macro.h; sourceTree = "<group>"; };
+		7863E023629AA150989C298C8777BC8F /* NSTimer+Timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Timer.h"; path = "LBXKit/Classes/NSTimer+Timer.h"; sourceTree = "<group>"; };
+		7AB69E0494B313B26614C5BBC627582A /* CALayer+Layer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+Layer.m"; path = "LBXKit/Classes/CALayer+Layer.m"; sourceTree = "<group>"; };
+		7B970857B78278F9773FAB71B70701AB /* NSFileManager+FileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+FileManager.m"; path = "LBXKit/Classes/NSFileManager+FileManager.m"; sourceTree = "<group>"; };
+		7E23FD7350BAF3FB58F6A01E6E24A58F /* LBXKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBXKit-Info.plist"; sourceTree = "<group>"; };
+		7E9ADE67F9F2A8ECFFEF0ED171FBE816 /* Pods-选择图片-选择图片UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-选择图片-选择图片UITests-umbrella.h"; sourceTree = "<group>"; };
+		828DF6435F4F673E523970ACF436DD58 /* NSString+String.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+String.h"; path = "LBXKit/Classes/NSString+String.h"; sourceTree = "<group>"; };
+		833E5474DA4DC53CAEB423250A37B024 /* NSObject+Runtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Runtime.h"; path = "LBXKit/Classes/NSObject+Runtime.h"; sourceTree = "<group>"; };
+		857C9E3DB2CFADB1EA72ACD0B6968DB4 /* Pods-选择图片Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		859E7368F31B542D15D04AA03E86A9B7 /* Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = LBXKit/Classes/Singleton.h; sourceTree = "<group>"; };
+		87673F8FE1C721CB0ED7ADDF39C57F6D /* CALayer+Layer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+Layer.h"; path = "LBXKit/Classes/CALayer+Layer.h"; sourceTree = "<group>"; };
+		893D4C85E6E0986C0230C0D29EC04896 /* Pods-选择图片-选择图片UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-选择图片-选择图片UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89DCFA6B94E41ABF330215F9D6D288E5 /* UITableView+TableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+TableView.m"; path = "LBXKit/Classes/UITableView+TableView.m"; sourceTree = "<group>"; };
+		9097F73935231387373C5541F720AA8C /* NSString+String.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+String.m"; path = "LBXKit/Classes/NSString+String.m"; sourceTree = "<group>"; };
+		979D99510E047157F798720EFB3C9E50 /* UIView+View.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+View.m"; path = "LBXKit/Classes/UIView+View.m"; sourceTree = "<group>"; };
+		9ABAA8E273B620EEEDBD1A503757329F /* NSArray+Array.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Array.m"; path = "LBXKit/Classes/NSArray+Array.m"; sourceTree = "<group>"; };
+		9B122D6D8178B1A8FB8BF1DE5997EDF6 /* NSObject+Object.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Object.m"; path = "LBXKit/Classes/NSObject+Object.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F115C907EDC257B8C18868329A13A8 /* UIImage+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image.h"; path = "LBXKit/Classes/UIImage+Image.h"; sourceTree = "<group>"; };
+		A24AD71983AACEC7D6BB34CEE8133F80 /* NSObject+Runtime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Runtime.m"; path = "LBXKit/Classes/NSObject+Runtime.m"; sourceTree = "<group>"; };
+		A39B712C512449C40F23B7AA6558AE0D /* UIDevice+Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Device.m"; path = "LBXKit/Classes/UIDevice+Device.m"; sourceTree = "<group>"; };
+		A42E10FBE6A870031D9C4B6DDA1C4F8E /* LBXKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBXKit.debug.xcconfig; sourceTree = "<group>"; };
+		A447ACFF32A7C1E827C4BBFBA1B70155 /* Pods-选择图片-选择图片UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-选择图片-选择图片UITests.modulemap"; sourceTree = "<group>"; };
+		A67B01A0EDD820400E644FE103B8CCE0 /* Methods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Methods.m; path = LBXKit/Classes/Methods.m; sourceTree = "<group>"; };
+		AA66A9201C4CF67288DDEE0903304F48 /* LBXKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBXKit-umbrella.h"; sourceTree = "<group>"; };
+		AA83A7BB57EE61AF553E77F003139ABD /* Pods__________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods__________UITests.framework; path = "Pods-选择图片-选择图片UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF14D12901F845CA76123DE642129E /* UIDevice+Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Device.h"; path = "LBXKit/Classes/UIDevice+Device.h"; sourceTree = "<group>"; };
+		ADDD058D7CDBACD879042D0CEA3BA4FC /* NSTimer+Timer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Timer.m"; path = "LBXKit/Classes/NSTimer+Timer.m"; sourceTree = "<group>"; };
+		AE6139CCED505891316E654159BB96D6 /* UINavigationController+NavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NavigationController.m"; path = "LBXKit/Classes/UINavigationController+NavigationController.m"; sourceTree = "<group>"; };
+		AFDB127B79E04CBD596A199710678131 /* UIButton+Button.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Button.m"; path = "LBXKit/Classes/UIButton+Button.m"; sourceTree = "<group>"; };
+		B76240A8D446A7348C2ED312C410502C /* Pods-选择图片-选择图片UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-选择图片-选择图片UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD01C66D996E8C23D2F4B8E03822E6DD /* LBXKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBXKit-prefix.pch"; sourceTree = "<group>"; };
+		BE9F6A0EE9AAF7D285261274286DD47F /* NSNumber+Number.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Number.h"; path = "LBXKit/Classes/NSNumber+Number.h"; sourceTree = "<group>"; };
+		C15535AF791836F6234BE7E82EDAF5C0 /* Methods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Methods.h; path = LBXKit/Classes/Methods.h; sourceTree = "<group>"; };
+		C349C9724E97F80CEA6ECBC31A8482CF /* Pods-选择图片Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3E2F29B4AB2DFB89215D981B8478B67 /* Pods-选择图片Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片Tests-Info.plist"; sourceTree = "<group>"; };
+		C4205B52BCC7F2189DA0CE26BCCCBF53 /* UIAlertController+Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Alert.h"; path = "LBXKit/Classes/UIAlertController+Alert.h"; sourceTree = "<group>"; };
+		C82A647C1C5E4C3543795A1E328DCCC0 /* NSDate+Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Date.m"; path = "LBXKit/Classes/NSDate+Date.m"; sourceTree = "<group>"; };
+		CB742C5537D8CEAE390BF9B6D37D7D5C /* UIAlertController+Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Alert.m"; path = "LBXKit/Classes/UIAlertController+Alert.m"; sourceTree = "<group>"; };
+		CBC297CAF14FA72B622E5645667F1CE8 /* Pods-选择图片Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-选择图片Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC1E2454160D2CE5C02EB2E52D8B5394 /* LBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBXKit.framework; path = LBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF34B09F6F6D6BE851019261606259AC /* Pods-选择图片Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-选择图片Tests-dummy.m"; sourceTree = "<group>"; };
+		DBADBF8909A6452E58EBB25137A85DA2 /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Color.m"; path = "LBXKit/Classes/UIColor+Color.m"; sourceTree = "<group>"; };
+		DD4D2424ABAFE3297DC423EB62AA29C7 /* Foundation+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Safe.m"; path = "LBXKit/Classes/Foundation+Safe.m"; sourceTree = "<group>"; };
+		E2560B06FCA32FC7B5A10CC9277ECA3E /* NSFileManager+FileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+FileManager.h"; path = "LBXKit/Classes/NSFileManager+FileManager.h"; sourceTree = "<group>"; };
+		E7B02B5F6B2C57E7A8C3F83153FE81B7 /* Pods-选择图片-选择图片UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片-选择图片UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8C9DCA18CFBD8A620FF5EA189F8F13D /* UIButton+Button.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Button.h"; path = "LBXKit/Classes/UIButton+Button.h"; sourceTree = "<group>"; };
+		EA6158E2AA5E7F3B250B2008F3C89652 /* UIViewController+VC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VC.m"; path = "LBXKit/Classes/UIViewController+VC.m"; sourceTree = "<group>"; };
+		ECB6E04C1EF6CA657C23BD6331E00ECF /* UIBarButtonItem+BarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+BarButtonItem.m"; path = "LBXKit/Classes/UIBarButtonItem+BarButtonItem.m"; sourceTree = "<group>"; };
+		F1DE375BF0633104AF4930B477B265F4 /* Pods-选择图片-选择图片UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-选择图片-选择图片UITests-Info.plist"; sourceTree = "<group>"; };
+		F371605C0AFFCC323DA1343AB4B6EE1C /* LBXKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBXKit.modulemap; sourceTree = "<group>"; };
+		F8D3A8831DB5C22F177988A4E1664EFD /* UIView+View.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+View.h"; path = "LBXKit/Classes/UIView+View.h"; sourceTree = "<group>"; };
+		F9D5266208E712D2DE10E10C738AAC6A /* NSArray+Array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Array.h"; path = "LBXKit/Classes/NSArray+Array.h"; sourceTree = "<group>"; };
+		FADD1D5F3860835FA8B444BED49C39E8 /* NSDictionary+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Dictionary.h"; path = "LBXKit/Classes/NSDictionary+Dictionary.h"; sourceTree = "<group>"; };
+		FE91D2D53822E03AAE82699C08F95BE4 /* SerializeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializeKit.h; path = LBXKit/Classes/SerializeKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09961A1F23FE8B91CBD03C0533C5FCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03F2260D9E7DB8E1BF44C4C0093DE95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C99A9CB2198D696B669850BE7748033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1A46398324F0A86DFB8AAD5CD87B59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2276A0D65D4C1941033866839DEB8148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CD2764355E5D1409511D42C67873E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFFAA926862BAF1E261C35C525E9F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3F2EC10F2E1A7D224D05B6131C7470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B474E6A4F55B27C86EB75289969E047 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F371605C0AFFCC323DA1343AB4B6EE1C /* LBXKit.modulemap */,
+				04C2F22992708852F0F644F4D92E4140 /* LBXKit-dummy.m */,
+				7E23FD7350BAF3FB58F6A01E6E24A58F /* LBXKit-Info.plist */,
+				BD01C66D996E8C23D2F4B8E03822E6DD /* LBXKit-prefix.pch */,
+				AA66A9201C4CF67288DDEE0903304F48 /* LBXKit-umbrella.h */,
+				A42E10FBE6A870031D9C4B6DDA1C4F8E /* LBXKit.debug.xcconfig */,
+				026D13E1E873F197A3D4A7B37A1F369B /* LBXKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBXKit";
+			sourceTree = "<group>";
+		};
+		2FC5DE0E93B20745696D22EA43FB0FF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93A602B32762A3D32DC0C42482BCCDE /* Pods-选择图片 */,
+				A91C5423C95BB69F222C5513B0A8075D /* Pods-选择图片-选择图片UITests */,
+				F4D9C01A4BBE2EC7AD333EA8C7AD8908 /* Pods-选择图片Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A91C5423C95BB69F222C5513B0A8075D /* Pods-选择图片-选择图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A447ACFF32A7C1E827C4BBFBA1B70155 /* Pods-选择图片-选择图片UITests.modulemap */,
+				893D4C85E6E0986C0230C0D29EC04896 /* Pods-选择图片-选择图片UITests-acknowledgements.markdown */,
+				E7B02B5F6B2C57E7A8C3F83153FE81B7 /* Pods-选择图片-选择图片UITests-acknowledgements.plist */,
+				34DD3E0E6B97C9561975AED0B1149F32 /* Pods-选择图片-选择图片UITests-dummy.m */,
+				6C3B8E1D1E53B6240E4A5D93FBA4B5AA /* Pods-选择图片-选择图片UITests-frameworks.sh */,
+				F1DE375BF0633104AF4930B477B265F4 /* Pods-选择图片-选择图片UITests-Info.plist */,
+				7E9ADE67F9F2A8ECFFEF0ED171FBE816 /* Pods-选择图片-选择图片UITests-umbrella.h */,
+				B76240A8D446A7348C2ED312C410502C /* Pods-选择图片-选择图片UITests.debug.xcconfig */,
+				2B81FC6D464D02C129D5AF4AB887D54F /* Pods-选择图片-选择图片UITests.release.xcconfig */,
+			);
+			name = "Pods-选择图片-选择图片UITests";
+			path = "Target Support Files/Pods-选择图片-选择图片UITests";
+			sourceTree = "<group>";
+		};
+		BF50CF9C87F03F3ED4256FBABB5C0B84 /* LBXKit */ = {
+			isa = PBXGroup;
+			children = (
+				87673F8FE1C721CB0ED7ADDF39C57F6D /* CALayer+Layer.h */,
+				7AB69E0494B313B26614C5BBC627582A /* CALayer+Layer.m */,
+				02F2D3D0EBB6518D83CBD3BC78BEA459 /* Foundation+Safe.h */,
+				DD4D2424ABAFE3297DC423EB62AA29C7 /* Foundation+Safe.m */,
+				07B5C05287A3CC7C4E75CCF14DAB462A /* Kit.h */,
+				782C2C3FE48F08E014D5EE0629ED20FB /* Macro.h */,
+				C15535AF791836F6234BE7E82EDAF5C0 /* Methods.h */,
+				A67B01A0EDD820400E644FE103B8CCE0 /* Methods.m */,
+				F9D5266208E712D2DE10E10C738AAC6A /* NSArray+Array.h */,
+				9ABAA8E273B620EEEDBD1A503757329F /* NSArray+Array.m */,
+				3F1D3741B6A662E020AA5406258272CE /* NSDate+Date.h */,
+				C82A647C1C5E4C3543795A1E328DCCC0 /* NSDate+Date.m */,
+				FADD1D5F3860835FA8B444BED49C39E8 /* NSDictionary+Dictionary.h */,
+				3D5502E49043F2E6DF3A5B640400DF03 /* NSDictionary+Dictionary.m */,
+				E2560B06FCA32FC7B5A10CC9277ECA3E /* NSFileManager+FileManager.h */,
+				7B970857B78278F9773FAB71B70701AB /* NSFileManager+FileManager.m */,
+				BE9F6A0EE9AAF7D285261274286DD47F /* NSNumber+Number.h */,
+				2BA99CF088F59D7A3A0D842721436131 /* NSNumber+Number.m */,
+				57CB9EAAD0D4717979EBF02FC65BD49F /* NSObject+Object.h */,
+				9B122D6D8178B1A8FB8BF1DE5997EDF6 /* NSObject+Object.m */,
+				833E5474DA4DC53CAEB423250A37B024 /* NSObject+Runtime.h */,
+				A24AD71983AACEC7D6BB34CEE8133F80 /* NSObject+Runtime.m */,
+				828DF6435F4F673E523970ACF436DD58 /* NSString+String.h */,
+				9097F73935231387373C5541F720AA8C /* NSString+String.m */,
+				7863E023629AA150989C298C8777BC8F /* NSTimer+Timer.h */,
+				ADDD058D7CDBACD879042D0CEA3BA4FC /* NSTimer+Timer.m */,
+				FE91D2D53822E03AAE82699C08F95BE4 /* SerializeKit.h */,
+				859E7368F31B542D15D04AA03E86A9B7 /* Singleton.h */,
+				C4205B52BCC7F2189DA0CE26BCCCBF53 /* UIAlertController+Alert.h */,
+				CB742C5537D8CEAE390BF9B6D37D7D5C /* UIAlertController+Alert.m */,
+				303DFFB99ABAA1134DD039C46C96C2E0 /* UIBarButtonItem+BarButtonItem.h */,
+				ECB6E04C1EF6CA657C23BD6331E00ECF /* UIBarButtonItem+BarButtonItem.m */,
+				E8C9DCA18CFBD8A620FF5EA189F8F13D /* UIButton+Button.h */,
+				AFDB127B79E04CBD596A199710678131 /* UIButton+Button.m */,
+				3F3CCE0F811BA58CFDE0D67C050134C8 /* UIColor+Color.h */,
+				DBADBF8909A6452E58EBB25137A85DA2 /* UIColor+Color.m */,
+				ABFF14D12901F845CA76123DE642129E /* UIDevice+Device.h */,
+				A39B712C512449C40F23B7AA6558AE0D /* UIDevice+Device.m */,
+				A0F115C907EDC257B8C18868329A13A8 /* UIImage+Image.h */,
+				0D98EF9CBA2103072CDE5D45735AB266 /* UIImage+Image.m */,
+				011567A9230CEA712EB64317EF251235 /* UIImageView+ImageView.h */,
+				418CB863ABFD19D107F1031A5CE42B6B /* UIImageView+ImageView.m */,
+				39438DCF2AFD8DE1ED607B7F5F84DE9E /* UILabel+Label.h */,
+				013F123A1FCD0B2FE880D3A44BD6B1BE /* UILabel+Label.m */,
+				1F5FFC7C3A57BF47D985C7E3246FCA34 /* UINavigationController+NavigationController.h */,
+				AE6139CCED505891316E654159BB96D6 /* UINavigationController+NavigationController.m */,
+				4BE9EE466BF3FBFB46D5E590C8D406D5 /* UIScrollView+ScrollView.h */,
+				2F3ADA391DBCC2980365B43F16992CB9 /* UIScrollView+ScrollView.m */,
+				09C6E5F23B51D092888F2D2BF2A308D4 /* UITableView+TableView.h */,
+				89DCFA6B94E41ABF330215F9D6D288E5 /* UITableView+TableView.m */,
+				F8D3A8831DB5C22F177988A4E1664EFD /* UIView+View.h */,
+				979D99510E047157F798720EFB3C9E50 /* UIView+View.m */,
+				4763CDFB6EB133923F12EE7381029A5C /* UIViewController+VC.h */,
+				EA6158E2AA5E7F3B250B2008F3C89652 /* UIViewController+VC.m */,
+				0B474E6A4F55B27C86EB75289969E047 /* Support Files */,
+			);
+			name = LBXKit;
+			path = LBXKit;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F485155479B8A9559E5D9A02830B493F /* Pods */,
+				EDCB48481A92DCCA8AA21B8B4984F6BC /* Products */,
+				2FC5DE0E93B20745696D22EA43FB0FF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCB48481A92DCCA8AA21B8B4984F6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E2454160D2CE5C02EB2E52D8B5394 /* LBXKit.framework */,
+				76D185B9B06B90595A92E0CB6BC7A9DD /* Pods_____.framework */,
+				AA83A7BB57EE61AF553E77F003139ABD /* Pods__________UITests.framework */,
+				250D25B21D187FE0B192D566108C4EB9 /* Pods_____Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F485155479B8A9559E5D9A02830B493F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF50CF9C87F03F3ED4256FBABB5C0B84 /* LBXKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4D9C01A4BBE2EC7AD333EA8C7AD8908 /* Pods-选择图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				713D5FABAA92E321D999F9CB159A3C4B /* Pods-选择图片Tests.modulemap */,
+				22CB81F09B627F080B6EC059D3C7343F /* Pods-选择图片Tests-acknowledgements.markdown */,
+				C349C9724E97F80CEA6ECBC31A8482CF /* Pods-选择图片Tests-acknowledgements.plist */,
+				CF34B09F6F6D6BE851019261606259AC /* Pods-选择图片Tests-dummy.m */,
+				C3E2F29B4AB2DFB89215D981B8478B67 /* Pods-选择图片Tests-Info.plist */,
+				CBC297CAF14FA72B622E5645667F1CE8 /* Pods-选择图片Tests-umbrella.h */,
+				857C9E3DB2CFADB1EA72ACD0B6968DB4 /* Pods-选择图片Tests.debug.xcconfig */,
+				289732644DBCBA14A7AD54CE74FBB5E2 /* Pods-选择图片Tests.release.xcconfig */,
+			);
+			name = "Pods-选择图片Tests";
+			path = "Target Support Files/Pods-选择图片Tests";
+			sourceTree = "<group>";
+		};
+		F93A602B32762A3D32DC0C42482BCCDE /* Pods-选择图片 */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A3C9C5F16D9A45039CDF206A9F160 /* Pods-选择图片.modulemap */,
+				2E8C94F290B96D406F698565B6674133 /* Pods-选择图片-acknowledgements.markdown */,
+				30473CD752F47D12159AE545AFBC515B /* Pods-选择图片-acknowledgements.plist */,
+				67B62B4F10EF6261F19AD3736B37C006 /* Pods-选择图片-dummy.m */,
+				758C7E2579B550A94130798DA56C468A /* Pods-选择图片-frameworks.sh */,
+				5E11BF7533A8B8C6AF986E378DC7C3D3 /* Pods-选择图片-Info.plist */,
+				35BCAC6F1CD682EF1DBC0AA4E231E13D /* Pods-选择图片-umbrella.h */,
+				3E5D1740B2D7F7BD382EE71ABE991033 /* Pods-选择图片.debug.xcconfig */,
+				70415D75093C086B7C00827608975D1C /* Pods-选择图片.release.xcconfig */,
+			);
+			name = "Pods-选择图片";
+			path = "Target Support Files/Pods-选择图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CD062781C6A5042C7CF2E92D53B1007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933ABF88C935DDD11DE85DAD97060F0A /* CALayer+Layer.h in Headers */,
+				7D5B932247379FD98279B6E32473C5AC /* Foundation+Safe.h in Headers */,
+				AC6593207B621F4E0118DA9C7347850E /* Kit.h in Headers */,
+				00C59143A4D01D8686D2622DECC32973 /* LBXKit-umbrella.h in Headers */,
+				1D9EDEE349961D9EA0D391E2EBE08731 /* Macro.h in Headers */,
+				21A02905575DC2E21477A5E29D191CD4 /* Methods.h in Headers */,
+				D1B648B6244DD57033B38DF9A276F9CF /* NSArray+Array.h in Headers */,
+				89CC240487BF0ECA5C1DDE3253C92A88 /* NSDate+Date.h in Headers */,
+				7EE58558FE5C45D06F260352C453CC6B /* NSDictionary+Dictionary.h in Headers */,
+				C04A40E8F327E6530C8D34215AC16AEE /* NSFileManager+FileManager.h in Headers */,
+				D89153C7E8D9B5CF26A48E8475B0C8F0 /* NSNumber+Number.h in Headers */,
+				2AA1D9C114746A52E22B9AEAAE29F08B /* NSObject+Object.h in Headers */,
+				9318EA9C4685B5E85EF97DD59EB2E94F /* NSObject+Runtime.h in Headers */,
+				E5EDF4C136E3E5C925D7FF600326CAFF /* NSString+String.h in Headers */,
+				C1449D12DC14CA56CDC30551384515F2 /* NSTimer+Timer.h in Headers */,
+				68DEE5CB146DAA0FE37726B4ED4D0266 /* SerializeKit.h in Headers */,
+				650DD83460ED66DE88B134DB5C3D8465 /* Singleton.h in Headers */,
+				16C70C1FC58745FC05D1D40DBAFCDBEE /* UIAlertController+Alert.h in Headers */,
+				5195DEDEBAD38D6BA4A129874BD72ED3 /* UIBarButtonItem+BarButtonItem.h in Headers */,
+				41A9901754DBEC50B741B9E83C733853 /* UIButton+Button.h in Headers */,
+				D0B0D4258D47C08B730CAF46F4C2D77B /* UIColor+Color.h in Headers */,
+				22CFD4AD9E1148417576497D8309B519 /* UIDevice+Device.h in Headers */,
+				C40DBA087E82530F8512AB491F1D6545 /* UIImage+Image.h in Headers */,
+				5210E1C8DEC0EED5443CDF941AEC7219 /* UIImageView+ImageView.h in Headers */,
+				EF6A42BB29F32190B3A520E2CD065E89 /* UILabel+Label.h in Headers */,
+				74490B574B057AE5903CBEBBE0CC4B08 /* UINavigationController+NavigationController.h in Headers */,
+				91B0960A0E5DEA9A6FF822E65F55D8B2 /* UIScrollView+ScrollView.h in Headers */,
+				BE748C2CA34C03410D44C951C044C9B0 /* UITableView+TableView.h in Headers */,
+				2E4CC0293F10C507942007F2B4888D58 /* UIView+View.h in Headers */,
+				57B439CB51809A466FB2D06B9D73140C /* UIViewController+VC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E35D4593CD2BAE98508E9ADD49FAD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83544B3DA172D79A5780C8A71D77CC29 /* Pods-选择图片-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E2B410A1425C1FB7B3D3FE5238C395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A28E10891D9BAFE77ACAEE7C2FBAC9 /* Pods-选择图片-选择图片UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15ADA63D877F74BFCF8826023F1ACC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7324249FFCB8244E55285AA7F867808 /* Pods-选择图片Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EE297E6EB6A7E9E054206292B354716 /* Pods-选择图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3532AD8F342FE1F401168D8D260FCA2 /* Build configuration list for PBXNativeTarget "Pods-选择图片" */;
+			buildPhases = (
+				70E35D4593CD2BAE98508E9ADD49FAD7 /* Headers */,
+				3B38F46BD2FC468EC10E423FEC831B9C /* Sources */,
+				1C99A9CB2198D696B669850BE7748033 /* Frameworks */,
+				33FAA665376EA8EBF810F0DE52E58A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D0835E3AD9CE690C1502387B4DE503 /* PBXTargetDependency */,
+			);
+			name = "Pods-选择图片";
+			productName = "Pods-选择图片";
+			productReference = 76D185B9B06B90595A92E0CB6BC7A9DD /* Pods_____.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82F1AF020DC39A3EBEE7FCC3CC9F21E0 /* LBXKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192924C0C7ABBD571D34C3AA07D558EA /* Build configuration list for PBXNativeTarget "LBXKit" */;
+			buildPhases = (
+				1CD062781C6A5042C7CF2E92D53B1007 /* Headers */,
+				831DF80A11F58F7E9A7B251DA382A555 /* Sources */,
+				2276A0D65D4C1941033866839DEB8148 /* Frameworks */,
+				6FEAA2A011E1B78138681B3BE7634FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBXKit;
+			productName = LBXKit;
+			productReference = CC1E2454160D2CE5C02EB2E52D8B5394 /* LBXKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86FC31DE62D8C98D5D1F93F55548F24E /* Pods-选择图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E108629A0A83365DAAB2CF13A66B63CF /* Build configuration list for PBXNativeTarget "Pods-选择图片Tests" */;
+			buildPhases = (
+				B15ADA63D877F74BFCF8826023F1ACC6 /* Headers */,
+				CF81F6FED7C8B718F1E6452A25788BAB /* Sources */,
+				DCFFAA926862BAF1E261C35C525E9F10 /* Frameworks */,
+				D6451417BDC1001BC71431B5F92AC882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9056AD39225C90C52A8609A74325A29 /* PBXTargetDependency */,
+			);
+			name = "Pods-选择图片Tests";
+			productName = "Pods-选择图片Tests";
+			productReference = 250D25B21D187FE0B192D566108C4EB9 /* Pods_____Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E662ED4AA8B8D32593D0AE09E49B31B /* Pods-选择图片-选择图片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1D2C82ECD42E451956B464DBE3CC36 /* Build configuration list for PBXNativeTarget "Pods-选择图片-选择图片UITests" */;
+			buildPhases = (
+				75E2B410A1425C1FB7B3D3FE5238C395 /* Headers */,
+				BE77342EFA1B1BBCD5AD27B2AEE648B8 /* Sources */,
+				09961A1F23FE8B91CBD03C0533C5FCC5 /* Frameworks */,
+				4E5FBC0D34D5AAEC1E77AC5EF4E468FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2D7293879CEF231566DDBD1BB35306 /* PBXTargetDependency */,
+			);
+			name = "Pods-选择图片-选择图片UITests";
+			productName = "Pods-选择图片-选择图片UITests";
+			productReference = AA83A7BB57EE61AF553E77F003139ABD /* Pods__________UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EDCB48481A92DCCA8AA21B8B4984F6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F1AF020DC39A3EBEE7FCC3CC9F21E0 /* LBXKit */,
+				2EE297E6EB6A7E9E054206292B354716 /* Pods-选择图片 */,
+				8E662ED4AA8B8D32593D0AE09E49B31B /* Pods-选择图片-选择图片UITests */,
+				86FC31DE62D8C98D5D1F93F55548F24E /* Pods-选择图片Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33FAA665376EA8EBF810F0DE52E58A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5FBC0D34D5AAEC1E77AC5EF4E468FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEAA2A011E1B78138681B3BE7634FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6451417BDC1001BC71431B5F92AC882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B38F46BD2FC468EC10E423FEC831B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0885516AC660E21FD41521C40D32CAC5 /* Pods-选择图片-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831DF80A11F58F7E9A7B251DA382A555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9436F52AD34B3731499842E8ED446679 /* CALayer+Layer.m in Sources */,
+				B19BA4B07B66D95985767360BA3C1E02 /* Foundation+Safe.m in Sources */,
+				1679131A02208613FA2855FE38FC149C /* LBXKit-dummy.m in Sources */,
+				D972A59EB2ED8A4BB806EE2E7B008797 /* Methods.m in Sources */,
+				C4C4938439FF8F454C71C9CE1EFB26A9 /* NSArray+Array.m in Sources */,
+				047B3AB4B717EA25883E8D2AA4A0A9E8 /* NSDate+Date.m in Sources */,
+				D044625EB124354FDB3D2F9418A7DFCC /* NSDictionary+Dictionary.m in Sources */,
+				81F3F4096346BD898125C62FF1E14F71 /* NSFileManager+FileManager.m in Sources */,
+				2B3194375CADC0DF8380792919B5B3AC /* NSNumber+Number.m in Sources */,
+				9E20D7B5D1A8EAD980826439FD08C6D8 /* NSObject+Object.m in Sources */,
+				60D6A254CF2DF1B5F7E52B9213659312 /* NSObject+Runtime.m in Sources */,
+				E6C0EC82CA8216DF1082834E824DC418 /* NSString+String.m in Sources */,
+				9EDEC6F1CBB6E06B1C61D0F0C47D0BB6 /* NSTimer+Timer.m in Sources */,
+				595B9B689469E03C713FE9669C42D7B5 /* UIAlertController+Alert.m in Sources */,
+				3B58C9D61CEB79DFE30A164399E42BA5 /* UIBarButtonItem+BarButtonItem.m in Sources */,
+				E183E2D04BB7F5C9EB28E44206815CC5 /* UIButton+Button.m in Sources */,
+				FF069C44432537DE4EDC7545D04AFECC /* UIColor+Color.m in Sources */,
+				189806491D952F1CC68168DCA7999D52 /* UIDevice+Device.m in Sources */,
+				65392E95D92DBF718753E85B35F5D8ED /* UIImage+Image.m in Sources */,
+				1B4307078C0FEACE6076668CCDE2B9B9 /* UIImageView+ImageView.m in Sources */,
+				8DED95E45C9E086BE1B8F5085E8CDC5F /* UILabel+Label.m in Sources */,
+				E5BA2A617A936DD0D0146FCE76C860FC /* UINavigationController+NavigationController.m in Sources */,
+				8797625A80CCEBCEC0CB5891D160447B /* UIScrollView+ScrollView.m in Sources */,
+				4D984B7615290EFB7654A8DAAD14F7E3 /* UITableView+TableView.m in Sources */,
+				ABCFD22AB6BDCD4F1A64CF316A1F1049 /* UIView+View.m in Sources */,
+				FE5BE2F16E5EA7E0AB8ADF253CEAB659 /* UIViewController+VC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE77342EFA1B1BBCD5AD27B2AEE648B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6241B08545336170FE242B9BDC9DD043 /* Pods-选择图片-选择图片UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF81F6FED7C8B718F1E6452A25788BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FABBA61D85C56A06991DCA8964F0D4D /* Pods-选择图片Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D0835E3AD9CE690C1502387B4DE503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBXKit;
+			target = 82F1AF020DC39A3EBEE7FCC3CC9F21E0 /* LBXKit */;
+			targetProxy = 8C404441E3A584E62ABF189CB20EBC8F /* PBXContainerItemProxy */;
+		};
+		BD2D7293879CEF231566DDBD1BB35306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBXKit;
+			target = 82F1AF020DC39A3EBEE7FCC3CC9F21E0 /* LBXKit */;
+			targetProxy = 3E4D4A29AA7F970A09AD74F95C69467A /* PBXContainerItemProxy */;
+		};
+		C9056AD39225C90C52A8609A74325A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-选择图片";
+			target = 2EE297E6EB6A7E9E054206292B354716 /* Pods-选择图片 */;
+			targetProxy = 0EB2E1677A1130AE0A696C8C9FBD248B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D63F366299F8EDC029C686DB023D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026D13E1E873F197A3D4A7B37A1F369B /* LBXKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBXKit/LBXKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBXKit/LBXKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBXKit/LBXKit.modulemap";
+				PRODUCT_MODULE_NAME = LBXKit;
+				PRODUCT_NAME = LBXKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35F0E8812DE1524E02C63FA787BD6D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5D1740B2D7F7BD382EE71ABE991033 /* Pods-选择图片.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片/Pods-选择图片-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片/Pods-选择图片.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C569FE214F60490133D7C1E24A6A604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76240A8D446A7348C2ED312C410502C /* Pods-选择图片-选择图片UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片-选择图片UITests/Pods-选择图片-选择图片UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片-选择图片UITests/Pods-选择图片-选择图片UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		405089977C4E170800D29EE94AEC5743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289732644DBCBA14A7AD54CE74FBB5E2 /* Pods-选择图片Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片Tests/Pods-选择图片Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片Tests/Pods-选择图片Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AD51FDEE30A6FD7F6B52AA71DAA479D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42E10FBE6A870031D9C4B6DDA1C4F8E /* LBXKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBXKit/LBXKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBXKit/LBXKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBXKit/LBXKit.modulemap";
+				PRODUCT_MODULE_NAME = LBXKit;
+				PRODUCT_NAME = LBXKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DB9CE1FD7FD4ECD8075DF0780B6D657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70415D75093C086B7C00827608975D1C /* Pods-选择图片.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片/Pods-选择图片-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片/Pods-选择图片.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C723CE6153E2F4DCA49F70D62FBD3530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857C9E3DB2CFADB1EA72ACD0B6968DB4 /* Pods-选择图片Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片Tests/Pods-选择图片Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片Tests/Pods-选择图片Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA88F98AA0D0750F91F48A6BCAD0F029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B81FC6D464D02C129D5AF4AB887D54F /* Pods-选择图片-选择图片UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-选择图片-选择图片UITests/Pods-选择图片-选择图片UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-选择图片-选择图片UITests/Pods-选择图片-选择图片UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192924C0C7ABBD571D34C3AA07D558EA /* Build configuration list for PBXNativeTarget "LBXKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD51FDEE30A6FD7F6B52AA71DAA479D /* Debug */,
+				1D63F366299F8EDC029C686DB023D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3532AD8F342FE1F401168D8D260FCA2 /* Build configuration list for PBXNativeTarget "Pods-选择图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F0E8812DE1524E02C63FA787BD6D5B /* Debug */,
+				9DB9CE1FD7FD4ECD8075DF0780B6D657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1D2C82ECD42E451956B464DBE3CC36 /* Build configuration list for PBXNativeTarget "Pods-选择图片-选择图片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C569FE214F60490133D7C1E24A6A604 /* Debug */,
+				EA88F98AA0D0750F91F48A6BCAD0F029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E108629A0A83365DAAB2CF13A66B63CF /* Build configuration list for PBXNativeTarget "Pods-选择图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C723CE6153E2F4DCA49F70D62FBD3530 /* Debug */,
+				405089977C4E170800D29EE94AEC5743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

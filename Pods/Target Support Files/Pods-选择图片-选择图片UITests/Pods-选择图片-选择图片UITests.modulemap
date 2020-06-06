@@ -1,0 +1,6 @@
+framework module Pods__________UITests {
+  umbrella header "Pods-选择图片-选择图片UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

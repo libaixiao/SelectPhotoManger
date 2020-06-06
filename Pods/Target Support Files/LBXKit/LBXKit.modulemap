@@ -1,0 +1,6 @@
+framework module LBXKit {
+  umbrella header "LBXKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
